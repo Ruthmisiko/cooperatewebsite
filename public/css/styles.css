@@ -1,0 +1,349 @@
+
+body{
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   /* width: 80%; */
+   margin-left: 5%;
+   margin-right: 5%;
+   background-color: #f9f9f9;
+
+
+}
+
+/* General reset for list items */
+ul {
+   margin-left: 30px;
+   padding: 0;
+   list-style: none;
+}
+
+/* Navbar styles */
+.navbar {
+   display: flex;
+   justify-content: space-between; /* Ensures logo is on the left, links on the right */
+   align-items: center;
+   background-color: #fff;
+   border-radius: 10px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   padding: 20px 20px;
+   margin-left: 10%;
+   position: fixed;
+   top: 0; /* Position it at the top */
+   left: 0;
+   width: 80%;
+  margin-right: 20%;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+/* Logo styles */
+.logo {
+   font-size: 24px;
+   font-weight: bold;
+   color: black;
+   margin-right: 20px;
+}
+
+/* Navbar links styles */
+.navbar ul {
+   display: flex;
+}
+
+.navbar ul li {
+   margin-left: 20px; /* Space between items */
+}
+
+.navbar ul li a {
+   text-decoration: none;
+   color: black;
+   font-size: 16px;
+   padding: 10px;
+   font-weight: bold;
+   transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effects */
+.navbar ul li a:hover {
+   background-color: #007BFF;
+   color: white;
+   border-radius: 5px;
+}
+.navbarheader{
+  
+   height: 100%;
+   display: flex;
+ 
+}
+.navbarheader .content h1{
+   padding-top: 25%;
+   color: #007BFF;
+   font-size: 3.5rem;
+   
+}
+.navbarheader .content{
+   padding-bottom: 5%;
+   margin-right: 10%;
+   margin-left: 10%;
+   
+}
+.content h1 {
+   font-size: 2.5rem; /* Adjusted heading size */
+   color: #333;
+   margin-bottom: 10px;
+   line-height: 1.2;
+}
+
+.content p {
+   font-size: 1.1rem;
+   color: #555;
+   margin-bottom: 20px;
+   line-height: 1.6;
+}
+
+.blue-button {
+   display: inline-block;
+   background-color: #007BFF; /* Blue color */
+   color: #fff;
+   text-decoration: none;
+   font-size: 1rem;
+   padding: 10px 20px;
+   border-radius: 5px;
+   font-weight: bold;
+   margin-left: 35%;
+   margin-top: 10%;
+   transition: background-color 0.3s;
+}
+
+.blue-button:hover {
+   background-color: #0056b3; /* Darker blue on hover */
+}
+
+.blue-button::after {
+   content: " →"; /* Arrow to the right */
+   margin-left: 8px;
+}
+.navbarheader .icons{
+   padding-top: 10%;
+   align-items: center;   
+   justify-content: center;
+   margin-left: 30%;
+   font-size: 30px;
+}
+h1{
+   color: #007BFF;
+   text-align: center;
+}
+.aboutus{
+   display: flex;
+   margin-top: 5%;
+}
+.aboutus .abt{
+   padding-left: 10%;
+   width: 40%;
+}
+.aboutus .img{
+   padding-left: 10%;
+}
+p{
+   font-size: 1.25rem;
+}
+.services .cards {
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+   background-color: #f9f9f9;
+   
+}
+.services{
+   height: 100%;
+   margin-top: 10%;
+}
+.card {
+   flex: 1;
+   margin: 10px;
+   padding: 20px;
+   background-color: #fff;
+   border-radius: 10px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   text-align: center;
+}
+
+.card h2 {
+   color: #333;
+   font-size: 24px;
+   margin-bottom: 15px;
+}
+
+.card p {
+   color: #555;
+   margin: 5px 0;
+}
+a{
+   text-align:center;
+   color: blue;
+}
+.contact-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   background-color: #f9f9f9;
+   margin-left: 10%;
+}
+
+/* Form Section */
+.form-section {
+   flex: 1;
+   padding: 50px;
+   background-color: #fff;
+}
+
+.form-section h1 {
+   margin-bottom: 20px;
+   font-size: 2rem;
+   color: #333;
+}
+
+.form-section label {
+   display: block;
+   margin-bottom: 5px;
+   color: #333;
+   font-weight: bold;
+}
+
+.form-section input,
+.form-section textarea {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 15px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   font-size: 1rem;
+}
+
+.form-section button {
+   background-color: #000;
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   cursor: pointer;
+   font-size: 1rem;
+   border-radius: 5px;
+}
+
+.form-section button:hover {
+   background-color: #444;
+}
+
+/* Image Section */
+.image-section {
+   flex: 1;
+}
+
+.image-section img {
+   width: 85%;
+   height: 60%;
+   object-fit: cover;
+}
+
+/* Button styling */
+.connect-button {
+   background-color: #007BFF; 
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   font-size: 1rem;
+   margin-bottom: 20px;
+   display: inline-block;
+}
+.footer{
+   display: flex;
+   
+}
+.footer .socialmedia{
+margin-left: 20%;
+}
+.footer .links{
+   margin-right: 10%;
+   }
+.footer .socialmedia .icons{
+      color: #007BFF;
+      font-size: 3rem;
+      }  
+.footer .links ul li a{
+   text-decoration: none;
+   color: #000;
+   
+ }
+ .footer .servicelinks p{
+   font-size: 1rem;
+ }
+ .footer .links ul li{
+   padding-top: 5px;
+   
+ }
+ .projectsh{
+   margin-top: 10%;
+ 
+ }
+ .projectsh h2{
+   margin-left: 10%;
+ }
+ .projectsh p{
+   margin-left: 15%;
+   text-align: center;
+   width:60%;
+ }
+ .academic{
+   display: flex;
+   margin-top: 8%;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ }
+ .academic .project1{
+   height: 50%;
+   width: 40%;
+   background-color: #fff;
+   border-radius: 10px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   margin-left: 20%;
+ }
+ h3{
+   text-align: center;
+   color: #007BFF;
+ }
+ .samples{
+   width: 40%;
+   margin-left: 5%;
+ }
+ .samples ul li{
+   padding-top: 20px;
+ }
+ .samples ul li a{
+   text-decoration: none;
+   color: #000;
+ }
+ .samples ul li a:hover{
+   text-decoration: none;
+   color: #007BFF;
+
+ }
+
+ .academic1{
+   display: flex;
+   margin-top: 10%;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   margin-bottom:10%;
+ }
+ .academic1 .samples{
+   width: 40%;
+   margin-left: 5%;
+ }
+ .academic1 .project1{
+   height: 50%;
+   width: 40%;
+   background-color: #fff;
+   border-radius: 10px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   margin-left: 20%;
+ }
